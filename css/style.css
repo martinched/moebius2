@@ -1,58 +1,190 @@
-html, body, div, span, applet, object, iframe, h1, h2, h2, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,  figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {       
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-}
-
 html{
   font-family: 'Permanent Marker', cursive;
 }
 
-header{
-    background-color: black;
-    height: 700px;
+.header{
+    background-color: #000;
+    width: 100%;
     
-  }
-h1{
+}
+
+.header__title{
     text-align: left; 
     color: #fff; 
     letter-spacing: 3px;
     font-size: 50px;  
     padding-left: 50px;
     
-  }
+}
 
-.portraitmoeb{
+.header__photo{
   align-items: center;
   display: flex;
   margin: auto;
 }
-.premiertexte{
+
+.header__textone{
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 50px;
+}
+
+.textone{
   text-align: center;
   color: #e01010;
   font-size: 25px;
-  
 }
-.texteun{
-  align-items: center;
-  display: flex;
-  padding-left: 50px;
-  padding-right: 50px;
-  margin: 50px;
 
-}
-.dessinsblub{
-  background-color: #fff;
+.header__draws{
+  display: flex;
+  flex-direction: row;
+  background-color: #000;
   width: 100%;
-  height: 300px;
+  height: 650px;
   
 }
-.gauche{
+
+.header__draws-left{
+  display: flex;
+  width: 50%;
+  height: 100%;
   float: left;
+  padding-left: 15px;
 }
-.droite{
+
+.header__draws-right{
+  display: flex;
+  width: 50%; 
+  height: 100%;
   float: right;
 }
+
+#section__one{
+  width: 100%;
+  
+  
+}
+
+.section__one-texttwo{
+  background-color: #F6EDC6;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px; 
+}
+
+.texttwo{
+  text-align: center;
+  font-size: 25px;
+  color: #000;
+}
+
+.section__one-draw{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.section__one-inter-title{
+  margin-top: -13px;
+  padding-left: 100px;
+  padding-right: 100px;
+} 
+
+.inter-title{
+   width: 100%;
+   position: relative;
+   z-index: 1;
+}
+
+#section__two{
+  margin-top: -50px;
+  position: relative; 
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.section__two-left{
+  background-color: #1B4E91;
+  background-image: url(../images/arzach.jpeg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+}
+
+.section__two-right{
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+}
+
+.section__two-boxcolor{
+  background-color: #1B4E91; 
+}
+
+.textthree{
+  text-align: center;
+  font-size: 25px;
+  padding: 30px;
+  color: #fff;
+}
+
+.draw-star{
+  display: flex;
+}
+
+.section__three-textfour{
+  background-color: #FBF03C;
+  text-align: center;
+  font-size: 25px;
+  padding: 30px;
+  color: #000;
+}
+
+.section__three-draw{
+
+}
+
+.incal{
+  width: 100%;
+}
+
+footer{
+  margin-top: -5px;
+  display: flex;
+}
+
+.footer__left{
+  background-image: url(../images/insidemoeb.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+}
+
+.footer__right{
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+}
+
+.footer__boxcolor{
+  background-color: #EFEEEC;
+}
+
+.lien-source{
+  text-align: center;
+  font-size: 40px;
+  color: #000;
+}
+
+
+
